@@ -36,9 +36,17 @@ $ sh ./test.sh
   <tr>
     <td align="center">
       <a href="https://github.com/ImGabreuw">
-        <img src="https://avatars.githubusercontent.com/u/60116449?v=4" width="100px;" alt="ImGabreuw"/><br>
+        <img src="https://avatars.githubusercontent.com/u/60116449?v=4" width="100px;" alt="Gabriel Geronazzo"/><br>
         <sub>
-          <b>ImGabreuw</b>
+          <b>Gabriel Geronazzo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://i.stack.imgur.com/frlIf.png" width="100px;" alt="Filipe Calabro"/><br>
+        <sub>
+          <b>Filipe Calabro</b>
         </sub>
       </a>
     </td>
