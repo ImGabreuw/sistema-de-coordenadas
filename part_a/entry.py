@@ -1,11 +1,11 @@
 from part_a.coordinate_manager import CoordinateManager
 from part_a.point import Point
-from utils import int_list_input
+from utils import int_list_input, int_input
 
 
 def entry():
     x, y = int_list_input("Digite as coordenadas da origem translada no seguinte formato 'x y': ")
-    n = int(input("Digite o número de pontos a serem lidas: "))
+    n = int_input("Digite o número de pontos a serem lidas: ")
 
     manager = CoordinateManager(Point(x, y))
 

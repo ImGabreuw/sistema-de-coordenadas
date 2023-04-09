@@ -13,7 +13,7 @@ class Coordinate:
 
     def __str__(self) -> str:
         if self.quadrant == 0:
-            return f"{self.point} está sobre o exio de coordenadas."
+            return f"{self.point} está sobre o eixo de coordenadas."
 
         return f"{self.point} está no {self.quadrant}o quadrante."
 

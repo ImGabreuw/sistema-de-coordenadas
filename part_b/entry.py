@@ -1,7 +1,10 @@
+from utils import int_input
+
+
 def entry():
-    x = int(input("Digite a coordenada X do ponto de origem A do robô: "))
-    y = int(input("Digite a coordenada Y do ponto de origem A do robô: "))
-    time = int(input("Digite por quanto tempo o robô irá caminhar: "))
+    x = int_input("Digite a coordenada X do ponto de origem A do robô: ")
+    y = int_input("Digite a coordenada Y do ponto de origem A do robô: ")
+    time = int_input("Digite por quanto tempo o robô irá caminhar: ")
 
     for i in range(time):
         movement = i % 3
