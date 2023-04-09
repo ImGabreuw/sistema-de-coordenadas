@@ -24,9 +24,12 @@ $ git clone https://github.com/ImGabreuw/sistema-de-coordenadas.git
 $ cd ./sistema-de-coordenadas/scripts
 
 # Conceder permissão de execução para o script de teste
-$ chmod +x ./test.sh
+$ chmod +x ./test.sh ./start.sh
 
-# Executar o script
+# Executar o aplicação
+$ sh ./start.sh
+
+# (Opcional) Executar testes
 $ sh ./test.sh
 ```
 
