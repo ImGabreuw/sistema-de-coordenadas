@@ -7,9 +7,7 @@ def entry():
     time = int_input("Digite por quanto tempo o robô irá caminhar: ")
 
     for i in range(time):
-        movement = i % 3
-
-        if movement == 0:
+        if i % 3 == 0:
             y += 1
             continue
 
